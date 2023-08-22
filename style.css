@@ -1,0 +1,156 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: rgb(236, 217, 198); 
+}
+
+/* Estilo del header */
+
+header {
+    background-color: #7ac0c2;
+    color: white;
+    padding: 30px;
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: -webkit-inline-box;
+}
+
+.nav-links {
+    flex-direction: column;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e8842c;
+}
+
+/* Estilo de los contenedores */ 
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+}
+
+
+.mostrador {
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.producto {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff00;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.producto-drop {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff00;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.producto img {
+    width: 70px;
+    height: auto;
+}
+
+#carrito-area {
+    background-color: antiquewhite;
+    border: #ddd;
+    border-width: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.carrito img {
+    width: 70px;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 200px;
+}
+
+.carrito {
+    text-align: center;
+    width: 50%;
+}
+
+.plato img {
+    width: 200px;
+    height: auto;
+}
+
+.button {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    margin:10px;
+    margin-bottom: 20px;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+
+}
+
+
+.precio {
+    width: 100px;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+.nombre {
+    width: 100px;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+.btn-info {
+    background-color:#7ac0c2 !important;
+    border-color: #ddd !important;
+    color: white !important;
+}
+
